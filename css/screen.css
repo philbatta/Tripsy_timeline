@@ -1,0 +1,128 @@
+
+* {
+  background-repeat: no-repeat;
+}
+
+html, body {
+    height: 100%
+}
+
+body {
+  background: pink;
+}
+
+section{
+    margin: 20px;
+}
+
+
+@media screen and (min-width: 800px) {
+  body {
+    background: white;
+  }
+}
+
+.hero{
+    width:100%;
+    margin: 0, auto;
+}
+header{
+    width:100%;
+    margin:0, auto;
+}
+
+.container{
+    width: 100%;
+}
+
+
+
+.timeline{
+    background:white;
+    height: 8px;
+    width: 1005px;
+    position: relative;
+    overflow: auto;
+    left:30px;
+    top: 300px;
+    z-index:2;
+}
+
+.trip-stop {
+    height:15px;
+    width: 15px;
+    background: green;
+    border-radius:50%;
+}
+
+a:hover{
+    background: black;
+}
+
+.bg1{
+    background-image: url(../img/Moscow.jpg);
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+    overflow: auto;
+    position:relative;
+    top:0;
+    left:0;
+    z-index:1;
+}
+
+.clear{
+    clear:both;
+}
+
+}
+SANDBOX//
+
+
+
+
+#talkbubble {
+   width: 120px;
+   height: 80px;
+   background: red;
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+}
+#talkbubble:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 26px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid red;
+   border-bottom: 13px solid transparent;
+}
+
+.EventBubble{position:absolute;
+            left: 470px;
+            width:130px;
+            top:0px;
+            font-size: 9px;
+            visibility: hidden;
+            text-align:center;
+            padding:2px;
+            background: blue;
+            opacity: 0;
+            transition: opacity 1s linear;
+        -webkit-transition: background-color 2s ease;
+            transition-delay: 2s;
+        -webkit-transition-delay: 2s;
+    }
+
+
+.partyinfo input:focus + .EventBubble {
+                visibility: visible;
+                opacity: 1;
+                background:gray;}
+            }
