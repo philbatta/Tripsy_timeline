@@ -33,13 +33,31 @@ header{
 
 .container{
     width: 100%;
+    position: relative;
+    top:0;
+    left:0;
 }
 
 
+.glyphicon-chevron-left{
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  left:17px;
+  top:290px;
+}
+
+.glyphicon-chevron-right{
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  left:1048px;
+  top:289px;
+}
 
 .timeline{
     background:white;
-    height: 8px;
+    height: 6px;
     width: 1005px;
     position: relative;
     overflow: auto;
@@ -47,6 +65,7 @@ header{
     top: 300px;
     z-index:2;
 }
+
 
 .trip-stop {
     height:15px;
