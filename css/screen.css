@@ -143,6 +143,11 @@ a:hover{
     clear:both;
 }
 
+.radio, .checkbox{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 th{
   margin: 5px 2px 5px 2px;
   width: auto;
