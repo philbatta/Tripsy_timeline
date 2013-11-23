@@ -36,8 +36,9 @@ p{
   margin: 1px 0px 1px 0px;
 }
 
-a:hover{
-  color:yellow;
+
+a :hover{
+  background-color: gold;
 }
 
 .container{
@@ -47,7 +48,6 @@ a:hover{
     left:0;
     margin: 0px 40px;
 }
-
 
 .glyphicon-chevron-left{
   color: white;
@@ -79,7 +79,6 @@ a:hover{
   color: white;
   font-size: 1.75em;
   float:left;
-  
  /* position: relative;
   top: -15px;
   left: 100px;*/
@@ -117,14 +116,6 @@ a:hover{
     z-index:2;
 }
 
-
-.trip-stop {
-    height:15px;
-    width: 15px;
-    background: green;
-    border-radius:50%;
-}
-
 .bg1{
     background-image: url(../img/Moscow.jpg);
     background-size: cover;
@@ -135,12 +126,17 @@ a:hover{
     overflow: auto;
     position:relative;
     top:0;
-    left:0;
-    
+    left:0;  
 }
 
 .clear{
     clear:both;
+}
+
+th{
+  margin: 5px 2px 5px 2px;
+  width: auto;
+  height: auto;
 }
 
 .radio, .checkbox{
@@ -148,17 +144,13 @@ a:hover{
   margin-bottom: 0px;
 }
 
-th{
-  margin: 5px 2px 5px 2px;
-  width: auto;
-  height: auto;
-
+.white-space{
+  height:800px;
+  background-color:white;
 }
 
-}
-SANDBOX//
 
-
+/*SANDBOX//
 
 
 #talkbubble {
@@ -204,3 +196,4 @@ SANDBOX//
                 opacity: 1;
                 background:gray;}
             }
+*/
